@@ -3,14 +3,16 @@ import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
 
 export default class NavBarComponent extends Component {
-  // @tracked show = false;
+  @tracked isShow = this.args.isShow ?? null;
 
-  // @action toggle() {
-  //   debugger
-  //   if (this.show) {
-  //     this.show = true;
-  //   } else {
-  //     this.show = false;
-  //   }
-  // }
+  @action toggle() {
+    if (this.isShow === true) {
+      this.isShow = null;
+    } else {
+      this.isShow = true;
+    }
+  }
+  @action someAction(){
+    this.isShow = null;
+  }
 }
