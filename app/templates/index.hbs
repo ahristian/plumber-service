@@ -1,241 +1,251 @@
-<div class="m-4 md:m-6 mb-10 md:mb-16 ">
+<div class="relative">
   <Banner />
-  <div class="w-full">
-    <div class="flex flex-row">
-      <div class="p-6 flex flex-col justify-start">
-        <h5 class="text-gray-900 text-xl font-medium mb-2">
-          <ul>
-            <li class="flex flex-row">
-              <div class="text-green-500 mr-2">
-                ✓
-              </div>
-              Выполним сантехнические работы на самом высоком уровне качества.
-            </li>
-            <li class="flex flex-row">
-              <div class="text-green-500 mr-2">
-                ✓
-              </div>
-              Имею большой опыт монтажа самого разнообразного оборудования.
-            </li>
-            <li class="flex flex-row">
-              <div class="text-green-500 mr-2">
-                ✓
-              </div>
-              Использую только лучшие материалы, инструмент и оборудование.
-            </li>
-            <li class="flex flex-row">
-              <div class="text-green-500 mr-2">
-                ✓
-              </div>
-              Предлагаю самые выгодные расценки на сантехнические работы для своих клиентов.
-            </li>
-            <li class="flex flex-row">
-              <div class="text-green-500 mr-2">
-                ✓
-              </div>
-              Выполним работу по всей Германии.
-            </li>
-          </ul>
-        </h5>
+  <div class="mb-10 md:mb-16 mt-2">
+    <div class="w-full">
+      <div class="flex flex-row">
+        <div class="p-6 flex flex-col justify-start">
+          <h5 class="text-gray-900 text-xl font-medium mb-2">
+            <ul>
+              <li class="flex flex-row">
+                <div class="text-green-500 mr-2">
+                  ✓
+                </div>
+                Выполню сантехнические работы на самом высоком уровне качества.
+              </li>
+              <li class="flex flex-row">
+                <div class="text-green-500 mr-2">
+                  ✓
+                </div>
+                Имею большой опыт монтажа самого разнообразного оборудования.
+              </li>
+              <li class="flex flex-row">
+                <div class="text-green-500 mr-2">
+                  ✓
+                </div>
+                Использую только лучшие материалы, инструмент и оборудование.
+              </li>
+              <li class="flex flex-row">
+                <div class="text-green-500 mr-2">
+                  ✓
+                </div>
+                Предлагаю самые выгодные расценки на сантехнические работы для своих клиентов.
+              </li>
+              <li class="flex flex-row">
+                <div class="text-green-500 mr-2">
+                  ✓
+                </div>
+                Выполню работу по всей Германии.
+              </li>
+            </ul>
+          </h5>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="px-6">
-    <WorkExample />
-    <div class="flex justify-start mt-5">
-      <div class="bg-white rounded-lg border border-gray-200 w-fit text-blue-500 text-lg">
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.heater"
+    <div class="px-6">
+      <WorkExample />
+      <div class="flex justify-start mt-7">
+        <div
+          class="bg-white rounded-lg border border-gray-200 w-full text-blue-500 text-lg mt-7"
         >
-          <li class="mt-2">
-            Замена и установка батареи, радиатора отоплени
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.heater"
-        >
-          <li class="mt-2">
-            Установка котлов
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.pipes"
-        >
-          <li class="mt-2">
-            Установка труб воды и канализации
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.plumbing"
-        >
-          <li class="mt-2">
-            Установка, монтаж и подключение ванны
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.plumbing"
-        >
-          <li class="mt-2">
-            Установка смесителя и слива
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.plumbing"
-        >
-          <li class="mt-2">
-            Установка унитаза
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.plumbing"
-        >
-          <li class="mt-2">
-            Подключение стиральной машины
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.heater"
-        >
-          <li class="mt-2">
-            Установка бойлера
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.plumbing"
-        >
-          <li class="mt-2">
-            Установка мойки
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.pipes"
-        >
-          <li class="mt-2">
-            Установка счетчиков воды
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.heater"
-        >
-          <li class="mt-2">
-            Установка теплого пола
-          </li>
-        </LinkTo>
-        <LinkTo
-          class="block
-        px-6
-        py-2
-        border-b border-gray-200
-        w-full
-        hover:bg-gray-100 hover:text-gray-500
-        focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
-        transition
-        duration-500"
-          @route="services.solar"
-        >
-          <li class="mt-2">
-            Установка солнечных панелей
-          </li>
-        </LinkTo>
+          <div class="grid grid-cols-1 md:grid-cols-2">
+            <div>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.heater"
+              >
+                <li class="mt-2">
+                  Замена и установка батареи, радиатора отоплени
+                </li>
+              </LinkTo>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.heater"
+              >
+                <li class="mt-2">
+                  Установка котлов
+                </li>
+              </LinkTo>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.pipes"
+              >
+                <li class="mt-2">
+                  Установка труб воды и канализации
+                </li>
+              </LinkTo>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.plumbing"
+              >
+                <li class="mt-2">
+                  Установка, монтаж и подключение ванны
+                </li>
+              </LinkTo>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.plumbing"
+              >
+                <li class="mt-2">
+                  Установка смесителя и слива
+                </li>
+              </LinkTo>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.plumbing"
+              >
+                <li class="mt-2">
+                  Установка унитаза
+                </li>
+              </LinkTo>
+            </div>
+            <div>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.plumbing"
+              >
+                <li class="mt-2">
+                  Подключение стиральной машины
+                </li>
+              </LinkTo>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.heater"
+              >
+                <li class="mt-2">
+                  Установка бойлера
+                </li>
+              </LinkTo>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.plumbing"
+              >
+                <li class="mt-2">
+                  Установка мойки
+                </li>
+              </LinkTo>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.pipes"
+              >
+                <li class="mt-2">
+                  Установка счетчиков воды
+                </li>
+              </LinkTo>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.heater"
+              >
+                <li class="mt-2">
+                  Установка теплого пола
+                </li>
+              </LinkTo>
+              <LinkTo
+                class="block
+                  px-6
+                  py-2
+                  border-b border-gray-200
+                  w-full
+                  hover:bg-gray-100 hover:text-gray-500
+                  focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600
+                  transition
+                  duration-500"
+                @route="services.solar"
+              >
+                <li class="mt-2">
+                  Установка солнечных панелей
+                </li>
+              </LinkTo>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
