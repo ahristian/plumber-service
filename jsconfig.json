@@ -18,21 +18,7 @@
     "inlineSources": true,
     "baseUrl": ".",
     "module": "es6",
-    "experimentalDecorators": true,
-    "paths": {
-      "shoelace/tests/*": [
-        "tests/*"
-      ],
-      "shoelace/mirage/*": [
-        "mirage/*"
-      ],
-      "shoelace/*": [
-        "app/*"
-      ],
-      "*": [
-        "types/*"
-      ]
-    }
+    "experimentalDecorators": true
   },
   "exclude": [
     ".git",
