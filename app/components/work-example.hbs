@@ -1,60 +1,72 @@
-  <div
-    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-4 lg:gap-6 lg:gap-8 mt-5 md:mt-8"
+<div
+  class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 lg:gap-8 mt-5 md:mt-8'
+>
+  <LinkTo
+    @route='services.heater'
+    class='flex flex-col h-60 hover:shadow-2xl transition hover:duration-300 rounded-lg bg-white shadow-lg border-r border-b border-l border-gray-50'
   >
-    <LinkTo @route="services.heater"
-      class="flex flex-col h-60 hover:shadow-2xl transition hover:duration-300 rounded-lg bg-white shadow-lg border-r border-b border-l border-gray-50"
-    >
-      <img
-        class="w-full h-40 object-cover rounded-t-lg"
-        src="/images/catelinaia2.jpg"
-        alt="cateol"
-      />
-      <div class="p-6 flex flex-col justify-start">
-        <h5 class="text-gray-900 text-xl font-medium mb-2">
-          Установка котлов отопления
-        </h5>
-      </div>
-    </LinkTo>
-    <LinkTo @route="services.plumbing"
-      class="flex flex-col h-60 hover:shadow-2xl transition hover:duration-300 rounded-lg bg-white shadow-lg border-r border-b border-l border-gray-50"
-    >
-      <img
-        class="w-full h-40 object-cover rounded-t-lg"
-        src="/images/background.jpg"
-        alt="cateol"
-      />
-      <div class="p-6 flex flex-col justify-start">
-        <h5 class="text-gray-900 text-xl font-medium mb-2">
-          Установка cантехники
-        </h5>
-      </div>
-    </LinkTo>
-    <LinkTo @route="services.solar"
-      class="flex flex-col h-60 hover:shadow-2xl transition hover:duration-300 rounded-lg bg-white shadow-lg border-r border-b border-l border-gray-50"
-    >
-      <img
-        class="w-full h-40 object-cover rounded-t-lg"
-        src="/images/5f295702c6b7d.jpeg"
-        alt="cateol"
-      />
-      <div class="p-6 flex flex-col justify-start">
-        <h5 class="text-gray-900 text-xl font-medium mb-2">
-          Установка солнечных панелей
-        </h5>
-      </div>
-    </LinkTo>
-    <LinkTo @route="services.pipes"
-      class="flex flex-col h-60 hover:shadow-2xl transition hover:duration-300 rounded-lg bg-white shadow-lg border-r border-b border-l border-gray-50"
-    >
-      <img
-        class="w-full h-40 object-cover rounded-t-lg"
-        src="/images/viber_image_2021-12-16_23-33-00-216.jpg"
-        alt="cateol"
-      />
-      <div class="p-6 flex flex-col justify-start">
-        <h5 class="text-gray-900 text-xl font-medium mb-2">
-          Установка труб воды и канализации
-        </h5>
-      </div>
-    </LinkTo>
-  </div>
+    <img
+      class='w-full h-40 object-cover rounded-t-lg'
+      src='/images/catelinaia2.jpg'
+      srcset='/images/mobile/catelinaia2.jpg 500w'
+      sizes='50vw'
+      alt='cateol'
+    />
+    <div class='p-6 flex flex-col justify-start'>
+      <h5 class='text-gray-900 text-xl font-medium mb-2'>
+        Установка котлов отопления
+      </h5>
+    </div>
+  </LinkTo>
+  <LinkTo
+    @route='services.plumbing'
+    class='flex flex-col h-60 hover:shadow-2xl transition hover:duration-300 rounded-lg bg-white shadow-lg border-r border-b border-l border-gray-50'
+  >
+    <img
+      class='w-full h-40 object-cover rounded-t-lg'
+      src='/images/background.jpg'
+      srcset='images/mobile/background.jpg 500w,
+        images/background.jpg 1000w'
+      alt='cateol'
+    />
+    <div class='p-6 flex flex-col justify-start'>
+      <h5 class='text-gray-900 text-xl font-medium mb-2'>
+        Установка cантехники
+      </h5>
+    </div>
+  </LinkTo>
+  <LinkTo
+    @route='services.solar'
+    class='flex flex-col h-60 hover:shadow-2xl transition hover:duration-300 rounded-lg bg-white shadow-lg border-r border-b border-l border-gray-50'
+  >
+    <img
+      class='w-full h-40 object-cover rounded-t-lg'
+      src='/images/5f295702c6b7d.jpeg'
+      srcset='/images/mobile/5f295702c6b7d.jpeg 500w,
+        /images/5f295702c6b7d.jpeg 1000w'
+      alt='cateol'
+    />
+    <div class='p-6 flex flex-col justify-start'>
+      <h5 class='text-gray-900 text-xl font-medium mb-2'>
+        Установка солнечных панелей
+      </h5>
+    </div>
+  </LinkTo>
+  <LinkTo
+    @route='services.pipes'
+    class='flex flex-col h-60 hover:shadow-2xl transition hover:duration-300 rounded-lg bg-white shadow-lg border-r border-b border-l border-gray-50'
+  >
+    <img
+      class='w-full h-40 object-cover rounded-t-lg'
+      src='/images/viber_image_2021-12-16_23-33-00-216.jpg'
+      srcset='images/mobile/viber_image_2021-12-16_23-33-00-216.jpg 500w,
+        images/viber_image_2021-12-16_23-33-00-216.jpg 1000w'
+      alt='cateol'
+    />
+    <div class='p-6 flex flex-col justify-start'>
+      <h5 class='text-gray-900 text-xl font-medium mb-2'>
+        Установка труб воды и канализации
+      </h5>
+    </div>
+  </LinkTo>
+</div>
