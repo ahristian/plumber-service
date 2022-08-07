@@ -5,9 +5,10 @@ export default class RichDataIndexComponent extends Component {
     return JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'WebPage',
-      name: 'Vladimir Hristian Сантехник в Германии vladsanteh',
+      name: 'Владимир Христиан (Vladimir Hristian) Сантехник в Германии',
       url: 'https://www.vladsanteh.de',
-      keywords: 'Vladimir Hristian Сантехник в Германии vladsanteh',
+      keywords:
+        'Владимир Христиан Сантехник в Германии (Vladimir Hristian Deutschland Germany) vladsanteh vlad santeh hessen Kassel Frankfurt Dusseldorf Duseldorf düsseldorf',
       breadcrumb: {
         '@type': 'BreadcrumbList',
         name: 'Vladimir Hristian Сантехник в Германии vladsanteh',
