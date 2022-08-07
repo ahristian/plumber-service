@@ -1,0 +1,7 @@
+{{#if this.outputRichData}}
+  {{#in-element this.inElement insertBefore=null}}
+    <script type="application/ld+json">
+      {{this.outputRichData}}
+    </script>
+  {{/in-element}}
+{{/if}}
